@@ -1,0 +1,5 @@
+node_modules/
+*.bak
+.rtl-patched.json
+.claude/
+review me/

@@ -1,0 +1,5 @@
+.claude/
+.git/
+review me/
+*.bak
+.rtl-patched.json

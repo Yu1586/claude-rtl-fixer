@@ -1,0 +1,42 @@
+{
+  "name": "claude-rtl-fixer",
+  "version": "1.0.0",
+  "description": "Fix RTL (Hebrew, Arabic, etc.) text rendering in Claude Desktop for Windows",
+  "main": "src/cli.js",
+  "bin": {
+    "claude-rtl": "src/cli.js"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "patch": "node src/cli.js patch",
+    "unpatch": "node src/cli.js unpatch",
+    "status": "node src/cli.js status"
+  },
+  "keywords": [
+    "claude",
+    "rtl",
+    "hebrew",
+    "arabic",
+    "electron",
+    "patch",
+    "bidi",
+    "right-to-left",
+    "claude-desktop",
+    "anthropic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@electron/asar": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": [
+    "win32"
+  ]
+}
