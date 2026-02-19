@@ -28,7 +28,7 @@
     "claude-desktop",
     "anthropic"
   ],
-  "author": "",
+  "author": "Yuval Ra (https://www.linkedin.com/in/yuvalra/)",
   "license": "MIT",
   "dependencies": {
     "@electron/asar": "^3.2.0"

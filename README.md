@@ -31,7 +31,7 @@ npx claude-rtl-fixer unpatch
 ### Option 2: Clone and run
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-rtl-fixer.git
+git clone https://github.com/Yu1586/claude-rtl-fixer.git
 cd claude-rtl-fixer
 npm install
 node src/cli.js patch
@@ -104,6 +104,10 @@ Claude Desktop may have been modified by another tool. Reinstall Claude Desktop 
 
 **App crashes after patching**
 Run `unpatch` to restore original files, or reinstall Claude Desktop.
+
+## Author
+
+Created by **Yuval Ra** — [LinkedIn](https://www.linkedin.com/in/yuvalra/)
 
 ## License
 

@@ -20,6 +20,8 @@ Requirements:
   - Claude Desktop must NOT be running (close it first, check system tray)
   - Node.js 16 or later
   - Windows only (for now)
+
+Created by Yuval Ra — https://www.linkedin.com/in/yuvalra/
 `;
 
 async function main() {
